@@ -1,5 +1,5 @@
 {
-  "name": "copilot-notify",
+  "name": "@infomagnus/copilot-notify",
   "version": "0.1.0",
   "description": "Context-aware Windows notifications for GitHub Copilot CLI",
   "main": "index.js",

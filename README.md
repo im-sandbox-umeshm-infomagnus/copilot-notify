@@ -392,7 +392,7 @@ The working prototype is now being packaged as a Windows-focused npm CLI.
 The intended installation experience is:
 
 ```powershell
-npm install -g @scope/copilot-notify
+npm install -g @infomagnus/copilot-notify
 ```
 
 The package installer is designed to automate the current setup by:
