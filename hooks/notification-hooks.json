@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "hooks": {
+    "notification": [
+      {
+        "type": "command",
+        "matcher": "permission_prompt",
+        "powershell": "COPILOT_NOTIFY_COMMAND_PLACEHOLDER -Title 'Copilot needs approval' -Message 'Copilot is waiting for your permission.'",
+        "timeoutSec": 5
+      },
+      {
+        "type": "command",
+        "matcher": "agent_completed",
+        "powershell": "COPILOT_NOTIFY_COMMAND_PLACEHOLDER -Title 'Copilot subagent finished' -Message 'A background Copilot agent has completed its work.'",
+        "timeoutSec": 5
+      },
+      {
+        "type": "command",
+        "matcher": "elicitation_dialog",
+        "powershell": "COPILOT_NOTIFY_COMMAND_PLACEHOLDER -Title 'Copilot needs your input' -Message 'Copilot is waiting for additional information.'",
+        "timeoutSec": 5
+      }
+    ],
+    "agentStop": [
+      {
+        "type": "command",
+        "powershell": "COPILOT_NOTIFY_COMMAND_PLACEHOLDER -Title 'Copilot finished' -Message 'Copilot has finished its task.'",
+        "timeoutSec": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "copilot-notify",
+  "version": "0.1.0",
+  "description": "Context-aware Windows notifications for GitHub Copilot CLI",
+  "main": "index.js",
+  "bin": {
+    "copilot-notify": "bin/copilot-notify.js"
+  },
+  "scripts": {
+    "postinstall": "node install/install.js"
+  },
+  "keywords": [
+    "github-copilot",
+    "copilot-cli",
+    "windows",
+    "notifications"
+  ],
+  "author": "Umesh Chandra",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
