@@ -1,5 +1,5 @@
 {
-  "name": "@infomagnus/copilot-notify",
+  "name": "copilot-notify",
   "version": "0.1.0",
   "description": "Context-aware Windows notifications for GitHub Copilot CLI",
   "main": "index.js",
@@ -17,6 +17,14 @@
   ],
   "author": "Umesh Chandra",
   "license": "MIT",
+  "files": [
+    "README.md",
+    "assets",
+    "bin",
+    "hooks",
+    "install",
+    "powershell"
+  ],
   "engines": {
     "node": ">=18"
   }
